@@ -310,3 +310,23 @@ body {
     text-align: center;
   }
 }
+
+.details {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: c;
+	text-align: justify;
+	padding: 0 90px;
+}
+.details h2 {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 122.2%;
+	margin-bottom: 0;
+}
+
+.details p {
+	width: 71%;
+}
+/* Page 4 end */
