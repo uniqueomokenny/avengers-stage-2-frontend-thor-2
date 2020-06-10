@@ -1,5 +1,7 @@
 * {
 	box-sizing: border-box;
+	padding:0;
+	margin:0;  
 }
 
 body {
@@ -9,6 +11,7 @@ body {
 	box-sizing: border-box;
 	transition: all 0.4s;
 }
+
 
 /* Clearfix (clear floats) */
 .row::after {
@@ -428,6 +431,116 @@ video {
 	font-family: 'Times New Roman';
 }
 /* Home video section end */
+
+/* Contact us page*/
+.contact-us-img {
+  width:100vw;
+  height:auto;
+}
+
+.contact-us-image {
+  width:100%;
+  height:auto;
+  display:block;
+}
+
+.contact-us-body {
+  display:flex;
+  overflow-x:hidden;
+  height:400px;
+}
+
+.contact-us-address-cont, .contact-us-form-cont{
+  width:60%;
+  height:350px;
+  margin-left:150px;
+  margin-top:50px;
+}
+
+.contact-title {
+  text-transform: capitalize;
+  font-family:serif;
+  font-size:19px;
+  margin-bottom:15px;
+}
+
+.contact-word{
+  font-style: italic;
+  font-size:16px;
+}
+
+.contact-word-bg{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.view-map {
+  font-weight:600;
+  font-family:'Times New Roman', Times, serif;
+  margin-top:15px;
+}
+
+.contact-us-address{
+  width:50%;
+}
+.contact-us-email{
+  margin-bottom:50px;
+}
+
+.contact-us-reservation {
+  margin-top:20px;
+}
+
+.contact-input {
+  border:none;
+  border-bottom:1px solid grey;
+  height:20px;
+  width:300px;
+  margin-top:20px;
+}
+
+.contact-us-fill p{
+  margin-top:15px;
+  text-transform:uppercase;
+}
+
+.contact-us-form {
+  width:50%;
+}
+
+.bottom-design{
+	display:flex;
+	align-items:flex-end;
+	justify-content: center;
+	height:200px;
+}
+
+.bottom-design-cont {
+	width:40%;
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+}
+
+.des-title {
+	font-weight:600;
+}
+
+.bottom-des-items {
+	text-align:start;
+	line-height: 25px;
+}
+.contact-us-footer {
+	background-color:black;
+	color:white;
+	display:flex;
+	width:100%;
+	justify-content: space-around;
+	height:60px;
+	align-items: center;
+}
+/*Contact us ends*/
 
 /* Page 3 Styles */
 .page-3-container {
